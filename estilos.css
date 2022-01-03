@@ -1,0 +1,190 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.huinchaSuperior{
+    background-color: #9C23F3;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+}
+p{
+    margin: 0;
+    padding: 5px;
+}
+.logo{
+    padding: 5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.menu_items{
+    display: flex;
+    list-style-type: none;
+}
+li a{
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #9C23F3;
+    font-weight: bold;
+    text-decoration: none;
+}
+.huinchaCovid{
+    background-color: #F323B9;
+}
+.covid{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    color: white;
+}
+span{
+    display: none;
+    color: #9C23F3;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+}
+nav .menu_items.show {
+    top: 170px; }
+
+@media screen and (max-width: 900px) {
+        nav {
+            height: 100px; 
+        }
+        nav span {
+            display: inline-flex; 
+        }
+        nav .menu_items {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color: white;
+            top: -100vh;
+            text-align: center;
+            transition: all .4s;
+            flex-direction: column;
+            z-index: 20;
+        }
+        nav .menu_items li {
+            margin: 10px 0 10px 0;
+            line-height: 40px; 
+        }
+        nav .menu_items li a {
+            font-size: 20px;
+            font-family: 'Raleway', sans-serif;
+            color: #9C23F3;
+            font-weight: bold; 
+        }
+        span {
+            padding: 35px;
+            z-index: 30; 
+        } 
+}
+.cajaflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vermas{
+    text-decoration: none;
+    color: #9C23F3;
+    background-color: #00FFD8;
+    padding: 5px 30px 5px 30px ;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+}
+.textoflex{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.destinos{
+    background-color: #f8f8f8;
+}
+.cajadestino{
+    background-color: white;
+    padding: 10px;
+    margin: 0px 10px 30px 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(228, 228, 228);
+}
+.titulodestino{
+    color: #9C23F3;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin: 0;
+}
+.noches{
+    color: #9C23F3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+.desde{
+    color: #9C23F3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
+.precio{
+    color: #9C23F3;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+hr{
+    background-color: #9C23F3;
+    border-color: none;
+    height: 5px;
+}
+.titulocard{
+    color: #9C23F3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+}
+.grupo{
+    background-image: url(img/abuelosgrupos.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulogrupos{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+.textogrupos{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+}
+.ventaonline{
+    background-image: url(img/ventaonline.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
